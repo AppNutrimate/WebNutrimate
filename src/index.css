@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena/AlmarenaBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena/AlmarenaDisplayLight.otf') format('opentype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena/AlmarenaNeueRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena/AlmarenaDisplayRegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}

@@ -1,7 +1,10 @@
 export const theme = {
     colors: {
-      primary: '#8257e6',
+      primaryPurple: '#8257e6',
       background: '#f0f0f5',
+      primaryGreen: '#b8e903',
+      primaryBlack: '#111111',
+      secondaryBlack: '##302e30',
       text: '#333',
     },
   };

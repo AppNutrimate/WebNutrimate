@@ -47,7 +47,7 @@ export const MainImage = styled.img`
 
 export const Signature = styled.h2`
   font-size: 2.3rem;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.primaryPurple};
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
