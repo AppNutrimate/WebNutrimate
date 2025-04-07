@@ -1,13 +1,13 @@
-import { Container, Content, MainImage, Signature, Title } from "./styles"
-import meditatingImage from "../../assets/images/Meditating.png"
+import { Container, Content} from "./styles"
+import HeaderBar from "../../components/HeaderBar"
+import HomeContent from "../../components/HomeContent"
 
 const Home = () => {
     return (
         <Container>
             <Content>
-                <MainImage src={meditatingImage} />
-                <Title>Shhh... Estou meditandando<br/>OOOHHHMMM</Title>
-                <Signature>Nutrimate.</Signature>
+                <HeaderBar />
+                <HomeContent />
             </Content>
         </Container>
     )
