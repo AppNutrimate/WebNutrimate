@@ -8,6 +8,7 @@ export const MainContainer = styled.div`
   height: 100vh;
   width: 100%;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 export const TitleContainer = styled.div`
@@ -15,6 +16,7 @@ export const TitleContainer = styled.div`
   padding: 0 20px;
   max-width: 800px;
   width: 100%;
+  z-index: 10;
 `;
 
 export const MainTitle = styled.h1`
@@ -24,6 +26,7 @@ export const MainTitle = styled.h1`
   text-align: center;
   font-family: 'Almarena', sans-serif;
   line-height: 1.1;
+  -webkit-text-stroke: 1px ${({ theme }) => theme.colors.background};
 ;`
 
 export const MainSubtitle = styled.h2`
@@ -37,7 +40,7 @@ export const MainSubtitle = styled.h2`
 
 export const ScrollContainer = styled(motion.div)`
 position: absolute;
-  bottom: 80px;
+  bottom: 7%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -129,4 +132,22 @@ export const TagContainer = styled.div`
   text-align: center;
 `;
 
-
+export const PurpleFormContainer = styled.div`
+  position: absolute;
+  top: 60%;
+  right: 5%;
+  transform: translateY(-50%) rotate(10deg);
+  width: 37vh;
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ${({ theme }) => theme.colors.primaryGreen};
+  border-radius: 25% 25% 100% 100%;
+  z-index: 0;
+  border: 15px solid ${({ theme }) => theme.colors.primaryGreen};
+  background-image: url('https://cdn.credihealth.com/production/system/images/assets/79067/original/how-can-i-have-a-healthy-lifestyle-faqs-2922.webp?1729078473');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+`;

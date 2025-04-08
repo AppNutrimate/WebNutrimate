@@ -5,6 +5,7 @@ import {
     MainContainer,
     MainSubtitle,
     MainTitle,
+    PurpleFormContainer,
     ScrollContainer,
     ScrollText,
     TagBoxContainer,
@@ -18,11 +19,6 @@ import {
                     <TagContainer>Bem-estar&</TagContainer>
                     <TagContainer>Saúde</TagContainer>
                 </TagBoxContainer>
-                <TitleContainer>
-                    <MainSubtitle>Criando conexões saudáveis:</MainSubtitle>
-                    <MainTitle>Rotina leve,</MainTitle>
-                    <MainTitle>cuidado presente</MainTitle>
-                </TitleContainer>
                 <ScrollContainer
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -42,6 +38,12 @@ import {
                     transformar vidas com a nutrição.
                     </IntroText>
                 </IntroTextContainer>
+                <PurpleFormContainer/>
+                <TitleContainer>
+                    <MainSubtitle>Criando conexões saudáveis:</MainSubtitle>
+                    <MainTitle>Rotina leve,</MainTitle>
+                    <MainTitle>cuidado presente</MainTitle>
+                </TitleContainer>
             </MainContainer>
         )
     }
