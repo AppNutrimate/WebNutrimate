@@ -1,5 +1,6 @@
 import {
     ArrowContainer,
+    GreenFormContainer,
     IntroText,
     IntroTextContainer,
     MainContainer,
@@ -39,6 +40,7 @@ import {
                     </IntroText>
                 </IntroTextContainer>
                 <PurpleFormContainer/>
+                <GreenFormContainer/>
                 <TitleContainer>
                     <MainSubtitle>Criando conexões saudáveis:</MainSubtitle>
                     <MainTitle>Rotina leve,</MainTitle>

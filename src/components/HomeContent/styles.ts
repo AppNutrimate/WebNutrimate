@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import Stretch from '../../assets/images/StretchWoman.webp';
+import Teens from '../../assets/images/TeenPlaying.jpg';
 
 export const MainContainer = styled.div`
   display: flex;
@@ -132,22 +134,54 @@ export const TagContainer = styled.div`
   text-align: center;
 `;
 
-export const PurpleFormContainer = styled.div`
+export const GreenFormContainer = styled.div`
   position: absolute;
   top: 60%;
   right: 5%;
   transform: translateY(-50%) rotate(10deg);
-  width: 37vh;
-  height: 43vh;
+  width: 40vh;
+  height: 47vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: ${({ theme }) => theme.colors.primaryGreen};
   border-radius: 25% 25% 100% 100%;
   z-index: 0;
-  border: 15px solid ${({ theme }) => theme.colors.primaryGreen};
-  background-image: url('https://cdn.credihealth.com/production/system/images/assets/79067/original/how-can-i-have-a-healthy-lifestyle-faqs-2922.webp?1729078473');
+  /* border: 15px solid ${({ theme }) => theme.colors.primaryGreen}; */
+  background-image: url(${Stretch});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
+  &:hover {
+    transform: translateY(-50%) rotate(-5deg);
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
 `;
+
+export const PurpleFormContainer = styled.div`
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  transform: translateY(-50%) rotate(-10deg);
+  width: 37vh;
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ${({ theme }) => theme.colors.primaryPurple};
+  border-radius: 15% 15% 100% 15%;
+  z-index: 0;
+  background-image: url(${Teens});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  &:hover {
+    transform: translateY(-50%) rotate(5deg);
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+`;
+

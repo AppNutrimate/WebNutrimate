@@ -24,16 +24,3 @@ const HeaderBar = () => {
 }
 
 export default HeaderBar;
-//Como funciona
-//Planos
-//Para quem é
-//LOGO
-//FAQ
-//Vamos começar
-
-// Nutrimate é uma plataforma que organiza sua rotina, ajudando você
-// a ganhar tempo, sem abrir mão da sensibilidade que o cuidado exige.
-
-// Criamos uma ferramenta que cuida dos detalhes,
-// pra que você possa se dedicar ao que faz de melhor:
-// transformar vidas através da nutrição.

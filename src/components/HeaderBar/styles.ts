@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+//TODO: Adicionar breakpoints para mobile
 export const HeaderBarContainer = styled.div`
   display: flex;
   position: fixed;
